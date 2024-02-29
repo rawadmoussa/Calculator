@@ -1,0 +1,134 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: auto 100%;
+    background-image: linear-gradient(rgb(5, 5, 24),rgb(39, 76, 139));
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.search{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 300px;
+}
+.everything{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+
+
+}
+.city{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.images{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+h1, h2, h3, h4{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+}
+#logod{
+    width: 60px;
+    height: 60px;
+}
+#today-weather{
+    width: 150px;
+    height: 150px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    font-size: x-large;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.search button{
+    padding: 5px 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.search button:hover{
+    background-color: rgb(172, 168, 168);
+}
+.search button img{
+    width: 30px;
+    height: 30px;
+}
+.weather{
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    background-image: linear-gradient(rgb(5, 5, 24),rgb(39, 33, 13));
+    width: 50%;
+    height: 500px;
+    border-radius: 100px;
+    min-width: 500px;
+    min-height: 350px;
+
+}
+.add{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+#wind{
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.temperature, .extra{
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.extra{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 40%;
+}
+.wind-row{
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+

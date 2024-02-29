@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="style.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="header">
+        <h1>
+            Calculator
+        </h1>
+        </div>
+        <div class="calculator">
+            <div class="inputbox">
+            <input id="rbox" class="resultBox" type="text" name="display">
+            </div>
+            <div class="buttons">
+                <button onclick="appendToDisplay(1)">1</button>
+                <button onclick="appendToDisplay(2)">2</button>
+                <button onclick="appendToDisplay(3)">3</button>
+                <button onclick="appendToDisplay('+')" class="operation">+</button>
+            </div>
+            <div class="buttons">
+                <button onclick="appendToDisplay(4)">4</button>
+                <button onclick="appendToDisplay(5)">5</button>
+                <button onclick="appendToDisplay(6)">6</button>
+                <button onclick="appendToDisplay('*')" class="operation">x</button>
+            </div>
+            <div class="buttons">
+                <button onclick="appendToDisplay(7)">7</button>
+                <button onclick="appendToDisplay(8)">8</button>
+                <button onclick="appendToDisplay(9)">9</button>
+                <button onclick="appendToDisplay('/')"class="operation">&divide</button>
+                
+            </div>
+            <div class="buttons">
+                <button onclick="appendToDisplay(0)">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="appendToDisplay(3.14)">&#960</button>
+                <button onclick="appendToDisplay('-')"class="operation">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="appendToDisplay('(')">(</button>
+                <button onclick="appendToDisplay(')')">)</button>
+                <button onclick="appendToDisplay('^')">x<sup>2</sup></button>
+                <button class="operation" onclick="appendToDisplay(ans)">ans</button>
+                
+            </div>
+            <div class="buttons">
+                <button onclick="clearDisplay()" class="red">AC</button>
+                <button onclick="sqrt()">&#8730</button>
+                <button onclick="backspace()">Del</button>
+                <button onclick="calculate()" class="operation">=</button>
+            </div>
+        </div>
+    </body>
+</html>
